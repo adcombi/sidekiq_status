@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.version       = SidekiqStatus::VERSION
 
   gem.add_runtime_dependency("activesupport")
-  gem.add_runtime_dependency("sidekiq", ">= 3.3", "< 6")
+  gem.add_runtime_dependency("sidekiq", ">= 3.3", "< 7")
 
   gem.add_development_dependency("rspec", '>= 3.4.0')
   gem.add_development_dependency("rspec-its")
